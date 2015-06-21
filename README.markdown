@@ -3,6 +3,8 @@ Python daemonizer class
 
 This is a Python class that will daemonize your Python script so it can continue running in the background. It works on Unix, Linux and OS X, creates a PID file and has standard commands (start, stop, restart) + a foreground mode.
 
+It should work also on Python 3.x.
+
 Based on [this original version from jejik.com](http://www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/).
 
 Usage
